@@ -1,0 +1,96 @@
+<html>
+ <head>
+   <style>
+		body, html {
+  		height: 100%;
+  		margin: 0;
+		}
+		#bg {
+		 height: 30cm;
+			background-position: center;
+			background-size: cover;
+			padding: 50px 50px 50px 50px;
+		}
+		#newrecord {
+    		margin: 20px auto 20px auto;
+    		padding: 50px 50px 50px 50px;
+    		width: 1000px;
+    		border-radius: 2px;
+    		text-align: left;
+      height: 3cm;
+			   background-color: darkgray;
+
+      	}
+							#q1 {
+								height:1.5cm;
+        padding-top: 2px;
+								background-color: lightgray;
+							}
+							#q2 {
+								background-color: cornsilk;
+								height: 1.5cm;
+							}
+							#q3 {
+								height:4cm;
+								background-color: antiquewhite;
+							}
+       #q4 {
+								height:3cm;
+        padding-top: 2px;
+								background-color: lightgray;
+							}
+
+      	#rec {
+    		margin: 0px auto 28px auto;
+    		padding: 50px 50px 50px 50px;
+    		height:14cm;
+    		width: 500px;
+    		border-radius: 2px;
+    		text-align: left;
+			   background-color: grey;
+          }
+		</style>
+	</head>
+	<body>
+	<div id="bg" >
+		
+	<div id='newrecord' >
+			<center>
+		<header> <h1>MOULIN CHANDRAKANT JARIWALA </h1> </header>
+		<header> <h1>1001858654 </h1> </header>
+			</center>
+	</div>
+		 <br><br>
+		<div id='rec'>
+			<center>
+    <br>
+
+	<br>
+	<form method='POST' action="app.py" id='q2'>
+		<br>
+  <Button>Click to see File After Removing punctuation of one file</Button>
+	</form>
+
+	<br>
+	<form method='POST' action="/q2" id='q3'>
+		<br>
+	    Enter Word To Remove: <input type="text" name="n2" "placeholder="Enter value" required> <br>
+    <br> Enter File Name: <input type="text" name="n2" "placeholder="Enter value" required> <br> <br>
+    <input type="submit"/>
+	</form>
+<br>
+ <form method='POST' action="/q4" id='q4'>
+  <h3><button> Click to see file after converting words to Lower case of one file</button></h3>
+  <h3><button> Click to see file after converting words to Upper case of one file</button></h3>
+ </form>
+
+ <br>
+ <form method='POST' action="/q1" id='q1'>
+  <h3><button> Click to see the List of Files</button></h3>
+  </form>
+ 
+</div>		
+</div>
+</body>
+</html>
+
